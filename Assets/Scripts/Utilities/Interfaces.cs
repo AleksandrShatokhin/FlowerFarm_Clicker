@@ -20,3 +20,13 @@ public interface IClickable
 {
     void Click();
 }
+
+public interface ISetable
+{
+    void Set();
+}
+
+public interface ISetable<T>
+{
+    void Set(T type);
+}
